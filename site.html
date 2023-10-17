@@ -3,59 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Eventos - Decoração de Festas</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="author" content="Erilane, Vanessa, Fabio, Gabriela"><!--acréscimo dos autores-->
+    <meta name="description" content="site para festas e eventos"><!--inclusão de descrição para pesquisas-->
+    <meta name="keywords" content="festas, eventos, orçamento de eventos, site de festas"><!--inclusão para pesquisar pelas tags-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>CV EVENTOS</title> <!-- Ajuste no título -->
+    
 </head>
 <body>
     <header>
-        <h1>CV Eventos Serviços de Decoração de Festas</h1>
+        <nav class="nav-menu"><!-- posição alterada-->
+            <div class="logo">
+                <img src="logo.png" alt="logo da empresa">
+            </div>
+            <div class="menu-div">
+            <ul class="menu"><!--acrescimo de e alteração de menu-->
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#quem-somos">QUEM SOMOS</a></li>
+                <li><a href="#servicos">NOSSOS SERVIÇOS</a></li>
+                <li><a href="#contatos">CONTATOS E ORÇAMENTOS</a></li>
+            </ul>
+            </div>
+        </nav>
+        
     </header>
-    <nav>
-        <ul>
-            <li><a href="#servicos">Nossos Serviços</a></li>
-            <li><a href="#portfolio">Portfólio</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
-
-    <section id="servicos">
-        <h2>Nossos Serviços</h2>
-        <p>Oferecemos uma ampla gama de serviços de decoração de festas para tornar o seu evento inesquecível. Entre os nossos serviços incluem-se:</p>
-        <ul>
-            <li>Decoração de Casamentos</li>
-            <li>Festas de Aniversário</li>
-            <li>Eventos Corporativos</li>
-            <li>Decoração Temática</li>
-            <li>Decoração de Eventos Especiais</li>
-        </ul>
-    </section>
-
-    <section id="portfolio">
-        <h2>Portfólio</h2>
-        <p>Aqui estão algumas imagens de decorações anteriores que criamos para nossos clientes:</p>
-        <div aria-rowindex="imagens">
-            <img src="aniversario.realeza.jpg"alt ="Decoração de Casamento">
-
-            class="portifolio-imagens-videos" id="videos">
-                <img src="czpraia.jpg" alt="videos">
-
-            
-            <div class="portifolio-imagens-aniversario" id="portifolio-imagens-aniversario">
-            <img src="cveventos.joaninha.jpg" alt="Festa de Aniversário">
-           
+    <br/>
+    <!--acréscimo do home-->
+    <section id="home">
+        <div class="conteiner"><!--baseado em código encontrado no youtube: https://www.youtube.com/watch?v=66SY-HpgS_0-->
+            <img src="estdio_beto_monteiro-4392.jpg" alt="foto principal de noivos">
+            <div class="titulo-centro"><h1>CV FESTAS E EVENTOS</h1></div>
         </div>
+        <br/>
+        <h2>"Meu casamento foi perfeito! Esta empresa foi minha
+            melhor escolha. <br/> Sou grata demais a toda equipe CV Eventos.
+            super indinco."      
     </section>
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Para obter mais informações ou agendar nossos serviços, entre em contato conosco:</p>
-        <address>
-            facebook: <a href="https://www.facebook.com/cveventosfestasvanessa">@CVEVENTOS</a><br>
-            WATSAPP: <a href="https://wa.me/qr/UJDNENSSDGSWB1">81987656832</a>
-        </address>
+    <br><br><br><!--para dar espaço-->
+    <!--acréscimo quem somos-->
+    <section id="quem-somos">
+        <h1>QUEM SOMOS NÓS?</h1>
+        <!--divisão para ficar lado a lado-->
+        <div id="div1">
+            <h2>Somos a CV Eventos <br/>
+            Profissionalizmo e dedicação para<br/>
+            realizar sonhos</h2>
+        </div>
+        <div id="div2">
+            <p>
+                <span>A</span> CV Eventos surgiu com o objetivo<br/>
+                de realizar sonhos e trazer felicidadea cada<br/>
+                momento especial realizado, com excelência e <br/>
+                qualidade alto padrão.
+            <p>
+        </div>
+        <!--imagem opcional caso queira retirar, trocar ou modificar tamanho-->
+       <div class="conteiner">
+        <img src="aniversario.realeza.jpg" alt="decoração tons de rosa">
+       </div>
+        
+        
     </section>
-    <footer>
-        <p>&copy; 2023 Página de Eventos - Decoração de Festas</p>
+
+    <br><br><br>
+    <section id="servicos">
+        <div class="descricao-servicos">
+            <h1>Nossos Serviços</h1>
+        <p>Oferecemos uma ampla gama de serviços de decoração de festas para tornar o seu evento inesquecível. Entre os nossos serviços incluem-se:</p>
+        <br><br>
+        <ul id="descricao-servicos">
+            <li>✤Decorações de Festas e eventos em geral</li>
+                <img src="cveventos.joaninha.jpg" alt="decoração de festa Joaninha">
+                <p>Somos referência no quesito decoração.</p>
+                <br/>
+                <hr/>
+                <br/>
+            <li>✤Seviço de Buffet com cheffes renomados</li>
+            <img src="IMG_5105.jpg" alt="Buffet de casamento">
+            <p>Temos os Melhores e renomados Cheffes do mercado, <br/>
+                para preparar um cardápio exclusivo</p>
+                <br/>
+                <hr/>
+                <br/>
+            <li>✤Infra estrutura de Alto Padrão</li>
+            <img src="02-villa-bisutti-espaco-eventos-sp-fotografia-denis-silveira-fotografo-casamentos_dd0e4f42e34c.jpg" alt="Salão de eventos">
+            <p>Possuimos um ambiente de luxo que você merece. <br/>
+               Climatizado, Dj, Fotografica, Faxada 3D, escade de mármore e muito mais.</p>
+                <br/>
+                <hr/>
+                <br/>
+        </ul>
+        </div>
+    </section>            
+          
+    <footer class="rodape" id="contatos">
+        <div class="rodape-final">
+
+            <h4 class="minhas-redes">🤝 Obrigada pela visita! Para obter mais informações ou e orçamentos, entre em contato conosco:👇</h4>
+
+            <ul class="cotato">
+                <li> <a href="https://www.facebook.com/cveventosfestasvanessa" target="_blank">
+                 <img id="icone-facebook" src="a779cfa5e048145c10289739a8126ee3.jpg" alt="icone-do-facebook"></a></li>
+
+                <li><a href="https://wa.me/qr/UJDNENSSDGSWB1" target="_blank" >
+                   <img id="icone-whats" src="WhatsApp-icon-watercolor-PNG-removebg-preview.png" alt="icone-do-whatsapp"></a>
+                
+                </li>
+    
+            </ul>
+        </div>
+
     </footer>
 </body>
 </html>
+
