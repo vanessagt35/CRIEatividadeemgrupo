@@ -101,8 +101,9 @@ h2 {
 }
 
 ul {
-    list-style-type: disc;
-    padding-left: 20px;
+    list-style-type: none;
+    padding-left: 50px;
+    text-align: center;
 }
 
 #home {
@@ -137,35 +138,62 @@ span {
     margin-top: -2%;
 }
 
-#img-quem-somos{
-    width: 100%;
+p {
+    text-align: center;
+    font-size: larger;
+}
+
+.descricao-servicos img{
+    padding: 20px;
+    width: 50%;
+    display: inline-block;
     
 }
-.portfolio-images {
+/*contatos feitos direto no footer*/
+.rodape {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.portfolio-images img {
-    margin: 10px;
-    max-width: 50%;
-    border: 1px violet;
-}
-.portfolio-images{
-    margin: auto;
-    margin: 100;
-    border: #FFF;
-
-}
-
-address a {
-    color: #FF5722;
-}
-
-footer {
-    background-color: #333;
-    color: #FFF;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 100px;
+    font-family: 'Alkatra', cursive;
     text-align: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: violet;
     padding: 10px;
-}
+    line-height: 100px;
+    margin-top: -20px;
+  
+  }
+  
+  .rodape-final {
+    width: 800px;
+    background-color: violet;
+  
+  }
+  
+  .minhas-redes {
+    font-size: 18px;
+    font-family: 'Alkatra', cursive;
+    color:wheat;
+    text-align: center;
+    background-color: violet;
+  }
+    
+  #icone-facebook {
+    width: 50%;
+    background-color: #FFCDB2;
+    border-radius: 50%;
+  }
+  
+  
+  #icone-whats {
+    width: 75%;
+    background-color: violet;
+  }
+  
+  footer ul li {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px;
+  }
